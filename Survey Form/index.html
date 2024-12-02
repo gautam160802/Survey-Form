@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Survey Form</title>
+</head>
+<body>
+  <h1>Survey Form</h1>
+  <p>Please fill out this quick survey:</p>
+
+  <!-- Start of Survey -->
+  <label>Name:</label><br>
+  <input type="text" placeholder="Enter your name"><br><br>
+
+  <label>Age:</label><br>
+  <input type="number" placeholder="Enter your age"><br><br>
+
+  <label>Gender:</label><br>
+  <input type="radio" name="gender" value="Male"> Male<br>
+  <input type="radio" name="gender" value="Female"> Female<br>
+  <input type="radio" name="gender" value="Other"> Other<br><br>
+
+  <label>Are you satisfied with our service?</label><br>
+  <select>
+    <option value="very-satisfied">Very Satisfied</option>
+    <option value="satisfied">Satisfied</option>
+    <option value="neutral">Neutral</option>
+    <option value="dissatisfied">Dissatisfied</option>
+    <option value="very-dissatisfied">Very Dissatisfied</option>
+  </select><br><br>
+
+  <label>Comments:</label><br>
+  <textarea placeholder="Write your feedback here..."></textarea><br><br>
+
+  <button type="submit">Submit</button>
+</body>
+</html>
